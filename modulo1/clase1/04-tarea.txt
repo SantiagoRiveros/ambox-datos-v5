@@ -1,0 +1,56 @@
+Tarea — Primeros pasos con Python
+
+Crear un archivo llamado tarea_clase_1.py y resolver los siguientes ejercicios.
+
+1. Información personal
+
+Crear variables para guardar:
+
+Nombre
+Edad
+Ciudad
+Profesión o actividad
+
+Mostrar toda la información utilizando print().
+
+2. Calculadora de compras
+
+Crear variables para:
+
+Producto
+Precio
+Cantidad
+
+Calcular y mostrar:
+
+El precio total.
+El precio total aplicando un descuento del 10%.
+
+3. Ventas de una tienda
+
+Una tienda tuvo estas ventas:
+
+Enero: $150.000
+Febrero: $175.000
+Marzo: $210.000
+
+Guardar los valores en variables y calcular:
+
+Total vendido.
+Promedio de ventas.
+Diferencia entre las ventas de marzo y enero.
+
+4. Datos de una persona
+
+Crear variables para:
+
+Nombre
+Edad
+Altura en metros
+Peso en kg
+
+Calcular el IMC utilizando:
+
+IMC = peso / (altura × altura)
+
+Mostrar el resultado.

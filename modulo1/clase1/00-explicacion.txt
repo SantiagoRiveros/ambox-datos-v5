@@ -1,0 +1,256 @@
+¿Que creen ustedes que significa analizar datos?
+
+Todos los dias nosotros tomamos decisiones basandonos en datos, aunque muchas
+veces no nos demos cuenta
+
+Ejemplo super cotidiano -> Viene lloviendo hace 2 dias, por ende mañana llevo al trabajo
+un paraguas.
+
+Ejemplos:
+-¿Que producto se vende mas?
+-Que empleado tiene mejor rendimiento?
+-Cuanto gastamos por mes?
+
+Analizar datos, no es solo graficar, o filtrar datos, o tomar datos.
+
+QUE ES EL ANALISIS DE DATOS?
+
+El analisis de datos es el proceso de:
+-Extraer
+-Inspeccionar
+-Limpiar
+-Transformar
+-Estudiar
+datos con el objetivo de obtener informacion util para responder preguntas y 
+tomar decisiones
+
+Datos -> Analisis -> Informacion -> Decision
+
+Ejemplo:
+Enero       $500.000
+Febrero     $620.000
+Marzo       $580.000
+Abril       $750.000
+Mayo        $810.000
+
+Los numeros por si solos son datos, no tienen contexto.
+
+Pero... si analizamos con contexto:
+    "Las ventas aumentaron un 62% entre enero y mayo"
+Ahora, tenemos informacion.
+
+Y podemos tomar una decision:
+    "Conviene investigar que ocurrio a partir de Enero 
+    para intentar repetir ese resultado"
+
+---------------------------------------------------------
+
+Dato VS Informacion:
+
+Dato -> Es un valor aislado
+Ejemplo: 25
+No sabemos que representa
+
+Por ejemplo:
+    -25 años
+    -25 productos
+    -25 pesos
+    -25 dolares
+    -25 clientes
+
+Informacion -> El dato tiene contexto
+Ejemplo: Edad 25 años.
+
+Informacion Analizada -> Tenemos varios datos y encontramos un patron.
+Ejemplo: Edad promedio de los clientes: 31,4 años.
+
+Conocmiento/decision:
+    "Nuestro publico principal tiene entre 25 y 35 años, por lo que podemos orientar la 
+    campaña publicitaria hacia ese segmento"
+
+DATOS -> INFORMACION -> CONOCIMIENTO -> DECISION.
+
+---------------------------------------------------------
+
+¿Donde encontramos datos?
+
+Empresas:
+    -ventas
+    -clientes
+    -productos
+    -facturacion
+    -inventario
+    -recursos humanos
+
+Intenet:
+    -Redes sociales
+    -Google Analytics
+    -Sitios Web
+    -APIs
+    -Encuestas
+
+Aplicaciones:
+    -Usuarios
+    -sesiones
+    -compras
+    -errores
+    -tiempos de utilizacion
+
+Archivos:
+    -CSV
+    -Excel
+    -JSON
+    -TXT
+    -Bases de Datos
+
+Fuentes Publicas:
+    -Gobiernos
+    -Universidades
+    -Organizaciones
+    -Kaggle <- ESTE RECOMIENDO EXPLORARLO CUANTO ANTES
+    -Open Data
+
+---------------------------------------------------------
+
+EJEMPLO PRACTICO:
+
+Una tienda online tiene 1000 ventas registradas
+
+cada venta tiene:
+    -Fecha
+    -producto
+    -categoria
+    -precio
+    -cantidad
+    -cliente
+    -ciudad
+    -metodo de pago
+
+La empresa quiere responder:
+    -Cual es el producto mas vendido?
+    -Cual es el mes con mayor ventas?
+    -Que ciudad compra mas?
+    -Cual es el ticket promedio?
+    -Que categoria genera mas dinero?
+
+Aca aparece el analisis de datos
+
+Una pregunta de negocio es el punto de partida del analisis.
+
+---------------------------------------------------------
+
+CICLO DE VIDA DEL ANALISIS DE DATOS:
+
+    1. pregunta
+    2. recopilar datos 
+    3. limpiar datos 
+    4. explorar datos 
+    5. analizar datos 
+    6. visualizar datos 
+    7. comunicar resultados <- POR ESTO NOS PAGAN.
+    8. decision 
+
+Esto NO SIEMPRE ES LINEAL.
+
+Por ejemplo:
+Analizo -> Encuentro un problema -> Vuelvo a limpiar -> Analizo 
+
+1. PREGUNTA 
+¿Que queremos saber?
+Ejemplo:
+    ¿Porque disminuyeron las ventas?
+
+2. RECOPILACION 
+Obtenemos los datos.
+Ejemplo:
+    ventas.csv 
+o desde:
+-Excel
+-API 
+-Base de datos 
+-Encuestas 
+
+3. LIMPIEZA
+Los datos reales casi nunca vienen perfecto.
+Podemos encontrar:
+Nombre      Edad      Ventas
+Junnan      250       5000
+Pedro       30        6000
+Maria       ?         4500
+Juan        25        cinco mil
+
+Problemas:
+-Datos faltantes
+-Duplicados
+-errores
+-Valores incorrecto
+-Formatos Inconsistentes
+
+4. EXPLORACION
+Intentamos entender los datos.
+
+preguntas:
+-Cuantos registros tenemos?
+-Que columnas existen?
+-Cual es el promedio?
+-Cual es el maximo?
+-Cual es el minimo?
+-Hay valores extraños?
+
+5. ANALISIS:
+Buscamos relaciones y patrones.
+Por ejemplo:
+    Los productos electronicos representan el 60% de la facturacion.
+
+6. VISUALIZACION:
+Representamos los resultados:
+    -Barras
+    -Lineas 
+    -Histogramas 
+    -Torta 
+    -Boxplots
+    -Mapas 
+    -Dashboards
+
+VISUALIZAR NO ES ANALIZAR 
+Un grafico es una herramienta para comunicar o explorar un analisis.
+
+
+7. COMUNICACION
+Tenemos que poder explicar:
+    "Las ventas bajaron un 18% principalmente debido a la caida de las ventas de 
+    la categoria X"
+No alcanza con mostrar un grafico, hay que saber explicarlo.
+
+----------------------------------------------
+
+Tipos de variables basicos:
+
+TIPO TEXTO -> Ejemplo: nombre = "Santiago"
+TIPO NUMERICO -> Ejemplo: edad = 33
+
+EXPLICACION PRINT:
+
+print es una funcion de python, que permite mostrar en la terminal, lo que
+metemos entre parentesis
+EJEMPLO: print("Hola")
+
+EXPLICACION TERMINAL:
+La terminal es una linea de comandos en la cual podemos ejecutar Nuestro
+archivo Python 
+
+Como abro la terminal?
+
+Con un atajo -> Control + Ñ 
+Con el mouse -> Hacemos click derecho en el archivo, en el explorador de carpetas
+e indicamos "Open in integrated terminal" o "Abrir en terminal integrada"
+Con el menu superior -> Terminal -> Open new terminal.
+
+Como ejecutamos nuestro archivo?
+python nombre_del_archivo.py
+
+En python podemos concatenar textos.
+QUe es concatenar? Es encadenar textos para entre varios textos hacer uno
+
+Como convierto un numero a texto?
+str(NUMERO)
