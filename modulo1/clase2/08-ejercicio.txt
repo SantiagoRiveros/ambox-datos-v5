@@ -1,0 +1,19 @@
+Deben crear: 
+productos.py
+
+Debe contener:
+
+nombre
+precio
+categoría
+stock
+
+Después deben:
+
+Mostrar el nombre del producto.
+Mostrar el precio.
+Modificar el stock.
+Agregar una clave descuento.
+Mostrar nuevamente el producto.
+
+Después crear una lista de 3 productos.

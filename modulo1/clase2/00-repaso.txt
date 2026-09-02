@@ -1,0 +1,9 @@
+¿Que hicimso la clase pasada?
+
+Que es analisis de datos
+Vimos sintaxis basica de python
+e instalamos el software necesario
+
+Objetivos:
+Sintaxis basica en pythono
+Estructuras de datos basicas

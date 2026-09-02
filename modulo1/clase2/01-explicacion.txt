@@ -1,0 +1,155 @@
+Variables
+
+Como hacemos para guardar informacion y utilizarla despues?
+
+Para eso usamos variables, la variable es una manera de nosotros poder guardar un dato, darle nombre y luego poder utilizarlo como queramos.
+
+Ejemplos:
+nombre = "Juan"
+edad = 25
+altura = 1.75
+
+que significa: edad = 25 ?
+significa que edad es igual a 25? -> No 
+Significa -> Guarda el valor 25 dentro de la variable con nombre edad 
+
+Yo puedo reasignar los valores de las variables todas las veces que yo quiera
+
+tipos de datos:
+
+-texto (string / str) -> "Juan"
+
+-Numero Entero (integer / int) -> 4
+
+-Numero decimal (float) -> 3.2
+
+-booleano (bool) -> True
+¿Que es un dato booleano? Es un tipo de dato, que admite solo dos valores:
+-True (Verdadero)
+-False (Falso)
+
+--------------------------------
+
+metodo input:
+
+El metodo input nos permite pedir informacion al usuario a traves de la terminal
+
+Como navego en la terminal? entre carpetas
+
+con el comando "cd" + el nombre de la carpeta me muevo a una carpeta
+sino, si quiero ir una carpeta para arriba escribo "cd .."
+
+---------------------------------
+
+CONDICIONALES
+
+Nosotros a veces, necesitamos ejecutar una accion, dependiendo de un valor, o de un resultado.
+
+nosotros ponemos la palabra clave -> if 
+seguido de una condicion logica, por ejemplo, una igualacion
+Ej: edad == 18
+si esa afirmacion, es correcta, se ejecuta el codigo que 
+esta "dentro" del if
+
+podemos, ademas, agregar un else, que significa "sino"
+si no se cumple la condicion del if, pasa instantaneamente a la del else
+si se cumple la del if, el else se ignora
+
+condicional elif:
+sirve para meter luego de un if.
+a diferencia del else, podemos agregarle una condicion al elif.
+los elif, se pueden encadenar de manera indeterminada.
+Puede ir como ultima opcion de una cadena de condicionales, pero NUNCA como primera.
+
+-------------------------------------
+
+OPERADORES
+
+DE COMPARACION:
+
+> mayor que
+< menor que
+>= mayor igual que 
+<= menor igual que 
+== igual que 
+!= desigual que 
+
+---------------------------------------
+
+ESTRUCTURAS DE DATOS:
+
+Supongamos que tenemos 1000 clientes, vamos a crear 1000 variables?
+
+Necesitamos estructuras que permitan almacenar muchos datos juntos
+
+Para lograr esto, tenemos:
+
+-Listas
+-Tuplas
+-Diccionarios
+
+LISTAS:
+
+Una lista permite almacenar varios elementos, de manera "encadenada"
+
+Cada  elemento posee una posicion especifica marcada por un indice.
+
+Los elementos internos, estan divididos y separados por comas.
+
+A la lista, lo "envuelve" un par de corchetes.
+
+Puede contener variedades de datos, no es necesairo que una lista, tenga un tipo de dato en especifico
+
+Como accedo a un elemento dentro de una lista?
+
+Las listas, como se menciona arriba, poseen indices,
+
+EJ:
+listaFrutas = ["Manzana", "Frutilla", "Pera"]
+Indice ->         0           1          2
+Los indices se cuentan desde 0, y por ende:
+
+Manzana -> Indice 0
+Frutilla -> Indice 1
+Pera -> Indice 2
+
+Accedo a un dato haciendo asi -> lista[indice]
+ejemplo -> listaFrutas[2]
+
+
+------------------------------
+
+TUPLAS:
+
+Es casi igual a la lista, pero la tupla, no se puede modificar.
+
+
+-------------------------------------
+
+Diccionarios:
+
+supongamos que tenemos :
+
+persona = ["Juan", 25, "Buenos Aires"]
+Como sabemos que representa cada posicion? 
+Tenemos que acordarnos que:
+indice 0 -> Nombre 
+indice 1 -> edad
+indice 2 -> Ciudad 
+No es practico
+
+COn el diccionario:
+clave -> valor
+nombre -> Juan 
+edad -> 25 
+ciudad -> Buenos Aires
+
+Como accedemos a los datos?
+
+-----------------------------
+
+| Estructura  | Ejemplo              | Característica            |
+| ----------- | -------------------- | ------------------------- |
+| Lista       | `["Juan", "Ana"]`    | Ordenada y modificable    |
+| Tupla       | `("Juan", "Ana")`    | Ordenada y no modificable |
+| Diccionario | `{"nombre": "Juan"}` | Clave → valor             |
