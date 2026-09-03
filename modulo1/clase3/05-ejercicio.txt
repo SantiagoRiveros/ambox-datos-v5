@@ -1,0 +1,15 @@
+Tenemos:
+
+ventas = [1200, 500, 3200, 800, 4500, 700, 1800]
+
+Crear una función:
+
+analizar_ventas(ventas)
+
+que:
+
+Recorra todas las ventas.
+Calcule el total.
+Cuente cuántas ventas son mayores o iguales a $1000.
+Muestre el total.
+Muestre la cantidad de ventas grandes.

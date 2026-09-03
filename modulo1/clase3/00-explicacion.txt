@@ -1,0 +1,133 @@
+Repaso condicionales:
+Un condicional, permite ejecutar dogio, solamente cuando se cumple una determinada condicion.
+
+if condicion:
+    codigo
+
+IMPORTANTE -> Identacion
+En otros lenguajes, muchas vece slas llaves {} delimitan bloques.
+En python la indentacion cumple ese papel.
+
+-------------------------------------------------------------------
+
+OPERADORES LOGICOS:
+permite evaluar de manera lgoica las condiciones
+
+-and
+condicionA and condicionB 
+evalua dos condiciones a la vez
+devuelve verdadero solo cuando ambas condiciones son verdaderas 
+
+ejemplo:
+if edad >= 18 and edad <= 60:
+    print("edad laboral")
+
+-or
+condicionA or condicionB
+
+al menos una condicion debe cumplirse
+Ejemplo:
+
+es_admin = False
+es_moderador = True
+
+if es_admin or es_moderador:
+    print("Puede administrar")
+
+
+not
+invierte el valor de veracidad.
+
+Ejemplo:
+
+activo = False 
+
+if not activo:
+    print("El usuario esta inactivo")
+
+TABLAS DE VERDAD:
+
+AND 
+True and True -> True 
+True and False -> False 
+False and True -> False 
+False and False -> False
+
+
+OR 
+True or True -> True 
+True or False -> True 
+False or True -> True 
+False or False -> False
+
+NOT 
+not True -> False 
+not False -> True
+
+--------------------------------------
+
+LOOPS / Bucles 
+Tenemos un problema ¿Que pasa si quiero imprimir 100 nombres? ¿Tengo que escribir print() 100 veces?"
+
+
+bucle FOR:
+for numero in range(5):
+    print(numero)
+
+esto, va a "dar vueltas", la varialbe "numero" va tomando cad avalor:
+
+1ra vuelta:
+numero = 0
+
+2da vuelta:
+numero = 1
+
+3ra vuelta:
+numero = 2
+
+4ta vuelta:
+numero = 3
+
+5ta vuelta:
+numero = 4
+
+6 vuelta:
+numero = 5 -> Ya no ejecuta
+
+
+range -> genera numeros 
+si tiene una sola propiedad, genera desde el 0, incluyendolo
+hasta el valor que tiene entre parentesis, sin incluirlo
+si tiene dos valores, el primero es el inciial, el segundo es hasta donde llega sin incluirlo 
+
+range(inicio, final, paso)
+
+len(lista/tupla) -> Devuelve la cantidad de elementos de una lista o una tupla
+
+BUCLE WHILE:
+for normalmente se utiliza cuando sabemos que elementos queremos recorrer.
+while se utiliza cuando queremos repetir algo mientras una condicion sea verdadera 
+
+Hay que tener especial cuidado con los loops infinitos,
+SIEMPRE que utilicen while, tienen que asegurarse de que en algun momento la condicion pueda dejar de cumplirse .
+
+--------------------------------------
+
+FUNCIONES:
+
+¿Que pasa si tenemos un bloque de codigo que necesitamos ejecutar muchas veces?
+Una funcion, permite encapsular y reutilizar codigo.
+
+Funciones con parametros:
+Las funciones, pueden tener parte de su codigo, informacion, o variables de manera dinamica
+Es decir, podemos llamar a una funcion y pasarle X informacion para que se adapta a esa informacion.
+
+Ejemplo:
+def saludar(nombre):
+    print("Hola", nombre)
+
+nombre es un parametro, cuando hacemos:
+saludar("Santiago")
+"Santiago" es el argumento que pasamos a la funcion y que va a tomar el valor de nombre.
+
+return, nos devuelve un valor, cuando en la funcion llega al return, sale de la misma.
