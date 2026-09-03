@@ -1,0 +1,54 @@
+Tarea — Analizador de notas
+
+Van a trabajar con:
+
+Notas aprobadas:
+8
+10
+6
+7
+9
+
+2. Calcular el promedio
+
+Crear:
+
+def calcular_promedio(notas):
+
+La función debe:
+
+Recorrer la lista con for.
+Sumar todas las notas.
+Calcular el promedio.
+Utilizar return.
+
+Después:
+
+promedio = calcular_promedio(notas)
+
+print("Promedio:", promedio)
+3. Contar aprobados y desaprobados
+
+Crear:
+
+def contar_aprobadas(notas):
+
+Debe devolver cuántas notas son 6 o superiores.
+
+Y crear:
+
+def contar_desaprobadas(notas):
+
+Debe devolver cuántas notas son menores a 6.
+
+Resultado esperado:
+
+Aprobadas: 5
+Desaprobadas: 2
+4. Encontrar la nota más alta
+
+Crear:
+
+def obtener_maxima(notas):
+
+Debe recorrer la lista y encontrar la nota más alta.
