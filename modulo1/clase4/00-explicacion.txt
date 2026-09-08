@@ -1,0 +1,122 @@
+Objetivos:
+
+-Entender que problema resuelven numpy y pandas
+-crear y manipular arrays de numpy
+-realizar operaciones matematicas sobre arrays.
+-Entender la diferencia entre una lista de python un  numpy.ndarray
+-Crear un DataFrame de pandas
+-Seleccionar columnas y filas
+-Filtrar datos
+-Crear nuevas columnas-Calcular estadisticas basicas
+-Ordenar datos.
+-Leer y guardar archivos CSV
+-Combinar varias oepraciones para realizar un pequeño analisis.
+
+Para empezar debemos instalar numpy y pandas:
+
+Desde la terminal:
+pip install numpy pandas
+
+¿Que es Numpy y Pandas? -> Son librerias
+¿Que es una libreria?
+Una libreria es codigo que otras personas desarrrollaron para resolver problemas especificos
+
+Por ejemplo:
+-Numpy -> Calculo Numerico
+-Pandas -> Manipulacion y Analisis de Datos.
+-Matplotlib -> Visualizacion
+-Scikit-learn -> Machine learning
+
+-------------------
+
+NUMPY:
+Numpy es una libreria de Python orientada principalmente al calculo numerico y al trabajo eficiente
+con arrays.
+
+En lugar de trabajar simplemente con:
+
+numeros = [10, 20, 30, 40]
+
+podemos utilizar:
+numeros = np.array([10, 20, 30, 40])
+
+Lista vs Numpy Array 
+
+Lista:
+
+numeros = [10, 20, 30, 40]
+
+Array:
+
+import numpy as np
+
+numeros = np.array([10, 20, 30, 40])
+
+DIFERENCIAS IMPORTANTES
+
+Característica             Lista de Python              Array de NumPy
+────────────────────────────────────────────────────────────────────────
+Tipo de datos              Puede mezclar tipos          Normalmente un tipo homogéneo
+Operaciones matemáticas    Más limitadas                Muy potentes y rápidas
+Rendimiento numérico       Más lento                    Más rápido
+Memoria                    Consume más                  Más eficiente
+Dimensiones                Listas anidadas              Multidimensional nativo
+Funciones matemáticas      Bucles o funciones           Operaciones vectorizadas
+Necesita instalación       No                           Sí (numpy)
+
+Una de las ventajas principales es que podemos realizar operaciones sobre todos los elementos
+
+Permite trabajar eficientemente con conjutos de valores numericos
+
+¿QUE ES UN ARRAY?
+Un array de numpy es una estructura diseñada para trabajar con datos numericos:
+
+la forma de acceder a sus elementos, es IGUAL a la de una lista, y visualmente tambien lo es.
+
+
+Funciones matematicas:
+
+--------------------------------
+
+PANDAS:
+Es una biblioteca especializada en la manipulacion y el analisis de datos
+OFrece estructuras de datos y operaciones para manipular tablas numericas 
+y series temporales.
+
+Dataframes:
+Son estructuras tabulares de datos, se usan especialmente para analisis de datos
+
+Dato tabular:
+Basicamente son datos bidimensionales, con columnas y filas
+
+Dataframe -> tabla
+columna -> Variable 
+Fila -> Registro
+indice -> posicion de la fila
+
+cuando en un dataframe ponemos corchetes
+estamos modificando el "contexto" de lo que se muestra
+
+por ejemplo -> dataframe["producto"]
+Esto, lo que hace, es que toma la columna producto
+pero no eslo uniuco que podemos hacer para cambiar el contexto
+de lo que se muestra dentro de los corchetes
+basicamente -> PODEMOS CREAR FILTROS DENTRO DE LOS CORCHETES
+
+Describe:
+       Unnamed: 0         precio  stock   valor_stock
+count    4.000000       4.000000   4.00  4.000000e+00
+mean     1.500000  292500.000000  15.75  2.012500e+06
+std      1.290994  360751.530373  11.50  1.520074e+06
+min      0.000000   25000.000000   5.00  7.500000e+05
+25%      0.750000   40000.000000   7.25  8.625000e+05
+50%      1.500000  172500.000000  14.00  1.650000e+06
+75%      2.250000  425000.000000  22.50  2.800000e+06
+max      3.000000  800000.000000  30.00  4.000000e+06
+
+-Count: Es la cantidad de elementos
+-mean: promedio
+-std: Desviacion estandar (Todavia no vamos a hablar de esto)
+-min: minimo
+-25% / 50% / 75% : Cuartiles, todavia no hablamos de esto.
+-max: maximo
