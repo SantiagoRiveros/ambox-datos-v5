@@ -1,0 +1,119 @@
+Operacion con datos - filtrado, agrupaciones y resumenes
+
+Objetivos:
+
+-Filtrar filas
+-Filtrar utilizando condiciones
+-Combinar varias condiciones
+-Seleccionar Columnas
+-Ordenar resultados
+-Agrupar datos con groupby()
+-calcular count, mean, sum, min, max, etc
+-Utilizar agg()
+-Crear resumenes de informacion
+-Combinar filtrado + agrupacion + agregacion
+
+Hasta ahora aprendimos a limpiar los datos. Hoy vamos a empezar a hacer preguntas (y resolverlas)
+sobre ellos
+
+Por ejemplo:
+-¿Cuantos pasajeros sobrevivieron? -> 342 personas
+-¿Cuantas mujeres sobrevivieron? -> 233 Mujeres sobrevivieron
+-¿Cual era la edad promedio de los pasajeros? -> 30
+-¿Cuantos pasajeros habia por clase? -> 1era: 216, 2da: 184. 3ra: 491
+-¿Cual fue la tarifa promedio de cada clase? -> 1era: 84.15, 2da: 20.66, 3era: 13.67
+-¿Cuantos pasajeros de primera clase sobrevivieron? -> 186 personas
+
+--------------------------------------------------
+
+SELECCIONAR COLUMNAS:
+
+Una columna:
+
+dataframe["nombre"] 
+
+Varias columnas:
+
+dataframe[["nombre", "edad", "genero"]]
+
+---------------------------------------------------
+
+Filtrar una condicion:
+
+dataframe[dataframe[columna] condicion]
+
+-------------------------------------
+
+Operadores de comparacion:
+== igual
+!= desigual
+> mayor
+< menor
+>= mayor igual
+<= menor igual 
+
+OPERADORES LOGICOS:
+
+AND -> &
+
+condicion A & condicion B
+
+Devuelve verdadero cuando ambas condiciones se cumplen
+
+EJEMPLO:
+
+True & True -> True 
+True & False -> False
+False & True -> False
+False & False -> False
+
+Devuelve SOLO cuando ambas condiciones son verdaderas
+
+Ejemplo:
+Pasajeros mujeres y que sobrevivieron
+dataframe[(dataframe["Sex"] == "female") & (dataframe["Survived"] == 1)]
+
+
+OR -> |
+
+Condicion A | Condicion B
+
+Devuelve Verdadero si cualquiera de las dos condiciones (o ambas) son verdaderas
+
+True | True -> True
+True | False -> True
+False | True -> True
+False | False -> False 
+
+Devuelve cuando cualquiera de las dos condiciones es verdadera
+
+Ejemplo:
+Pasajeros hombres o menores de 18 años
+
+dataframe[(dataframe["Sex"] == "male") | (dataframe["Age"] < 18)]
+
+NOT -> ~
+
+Invierte el estado de veracidad de algo, por ejemplo:
+
+Devolveme pasajeros que su Pclass no es 3 
+
+~True -> False 
+~False -> True 
+
+Pasajeros que NO son de la tercera clase:
+
+dataframe[~(dataframe["Pclass"] == 3)]
+
+VARIABLES CAtegoricas:
+
+Son aquellas que no son numericas
+
+value_counts() cuenta los resultados
+
+
+---------------------------------
+
+Agrupaciones:
+
+groupby() divide los datos en grupos y despues podemos calcular algo sobre cada grupo.
