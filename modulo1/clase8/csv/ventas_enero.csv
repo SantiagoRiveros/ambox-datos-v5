@@ -1,0 +1,5 @@
+﻿venta_id,cliente_id,producto,mes,total
+201,1,Mouse,Enero,2400
+202,2,Teclado,Enero,2500
+203,3,Auriculares,Enero,5400
+204,4,Webcam,Enero,6400

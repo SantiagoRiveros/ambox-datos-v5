@@ -1,0 +1,120 @@
+Ejercicio 1
+
+Cargar los cuatro CSV utilizando Pandas.
+
+Mostrar:
+
+Las primeras 5 filas de cada DataFrame.
+Cantidad de filas.
+Cantidad de columnas.
+Nombres de las columnas.
+Ejercicio 2
+
+Investigar qué tipo de dato tiene cada columna.
+
+Usar:
+
+print(clientes.dtypes)
+
+y hacer lo mismo con los demás DataFrames.
+
+Parte 2 — Primeros merge()
+Ejercicio 3 — Ventas + Clientes
+
+Unir ventas con clientes utilizando:
+
+pd.merge()
+
+La relación debe hacerse mediante:
+
+cliente_id
+
+El resultado debería permitir conocer, para cada venta:
+
+ID de venta
+Cliente
+Producto
+Cantidad
+Total
+
+Pregunta: ¿cuántos registros tiene el resultado?
+
+Ejercicio 4 — Ventas + Productos
+
+Unir ventas con productos.
+
+La relación debe hacerse mediante:
+
+producto_id
+
+Obtener una tabla que permita conocer:
+
+Producto
+Categoría
+Precio
+Cantidad vendida
+Total de la venta
+Ejercicio 5 — Unir tres DataFrames
+
+Crear un DataFrame llamado:
+
+ventas_completas
+
+que contenga información de:
+
+ventas
+clientes
+productos
+
+Debería quedar algo parecido a:
+
+venta_id
+cliente
+ciudad
+producto
+categoria
+cantidad
+precio
+total
+Parte 3 — how
+Ejercicio 6 — inner
+
+Realizar un merge() utilizando:
+
+how="inner"
+
+Responder:
+
+¿Qué ocurre con los registros que no tienen coincidencia?
+
+Ejercicio 7 — left
+
+Repetir la unión utilizando:
+
+how="left"
+
+Responder:
+
+¿Qué diferencia encontramos respecto al inner?
+
+Ejercicio 8 — right
+
+Realizar un right join.
+
+Analizar:
+
+¿Qué registros aparecen ahora que antes podían no aparecer?
+
+Ejercicio 9 — outer
+
+Realizar:
+
+how="outer"
+
+Analizar el resultado.
+
+Buscar específicamente valores:
+
+NaN
+
+y explicar por qué aparecen.
