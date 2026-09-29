@@ -1,0 +1,47 @@
+Ejercicio 1 – Temperaturas
+
+Tenemos las temperaturas registradas durante una semana:
+
+temperaturas = np.array([
+    18,
+    21,
+    25,
+    27,
+    24,
+    20,
+    17
+])
+
+Resolver:
+
+A.
+
+Mostrar la temperatura promedio.
+
+B.
+
+Mostrar la temperatura máxima.
+
+C.
+
+Mostrar la temperatura mínima.
+
+D.
+
+Mostrar cuánto se aleja cada temperatura del promedio.
+
+E.
+
+Mostrar solamente las temperaturas superiores a 22 grados.
+
+F.
+
+Crear un nuevo array donde todas las temperaturas estén expresadas en Fahrenheit.
+
+Fórmula:
+
+F = C × 9/5 + 32
+
+En NumPy:
+
+fahrenheit = temperaturas * 9/5 + 32
