@@ -1,0 +1,57 @@
+Tarea — DER: Clínica Veterinaria
+Situación
+
+Una clínica veterinaria quiere desarrollar una base de datos para organizar la información de sus pacientes y las consultas realizadas.
+
+La clínica atiende diferentes tipos de animales y cuenta con varios veterinarios.
+
+De cada dueño se quiere guardar:
+
+ID
+Nombre
+Apellido
+Teléfono
+Email
+
+De cada mascota se necesita registrar:
+
+ID
+Nombre
+Especie
+Raza
+Fecha de nacimiento
+Dueño
+
+Un dueño puede tener varias mascotas, pero cada mascota pertenece a un solo dueño.
+
+De cada veterinario se quiere conocer:
+
+ID
+Nombre
+Apellido
+Matrícula
+Especialidad
+
+Las mascotas pueden asistir a diferentes consultas veterinarias.
+
+De cada consulta se necesita registrar:
+
+ID
+Fecha
+Motivo
+Diagnóstico
+Mascota
+Veterinario
+
+Una mascota puede tener muchas consultas y un veterinario puede atender muchas consultas.
+
+Además, durante una consulta se pueden indicar uno o varios medicamentos.
+
+De cada medicamento se quiere almacenar:
+
+ID
+Nombre
+Tipo
+Precio
+
+Una misma consulta puede incluir varios medicamentos y un medicamento puede ser indicado en muchas consultas.

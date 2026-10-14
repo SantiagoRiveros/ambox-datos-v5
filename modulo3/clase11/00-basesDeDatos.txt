@@ -1,0 +1,70 @@
+Una base de datos es uns sistema que permite almacenar, organizar y consultar informacion
+de manera estructurada y eficiente.
+
+Por ejemplo, una tienda puede tener datos sobre:
+-Clientes
+-Productos
+-Ventas
+-Empleados
+
+Hay 2 tipos de bases de datos: Relacionales y no Relacionales
+
+Relacionales -> SQL
+No Relacionales -> NoSQL
+
+-----------------------------------
+
+Bases de datos relacionales:
+
+Son las mas tradicionales, y organizan la informacion en tablas, formadas por filas y columnas.
+
+Elementos que contiene:
+
+-Base de datos: Es el organismo entero, es donde vamos a guardar el todo, por ejemplo:
+Base de datos de un comercio.
+Esta conformada por tablas, que se relacionan (o no)
+-Tablas: Son las entidades de la DB (database) en si, conforman una entidad, y deberian ser 
+monotematicas. Ejemplo: Clientes, Ventas, Empleados, Productos.
+Estan conformadas por Columnas y Filas.
+-Columnas (Propiedades o Campos): Son las caracteristicas, y/o propiedades sobre las que vamos a guardar
+datos de una entidad. Ejemplo: Nombre, email, edad, direccion.
+-Filas (Registros): Son cada una de las entradas que guardamos en una tabla, llenando (o no) cada
+uno de los campos. Ejemplo: Santiago 33 Berazategui
+-Relaciones: Son la forma en la que se relacionan las tablas, a traves de sus Foreign Key o clave foranea.
+
+Hay 2 elementos, que son columnas en si, que se presentan en las DB relacionales:
+
+Primary Key (Clave Primaria / PK): Es el identificador de cada fila, que nos sirve para poder
+identificar una fila de manera unica y sin lugar a ambiguedades. No deberia repetirse y deberia ser unico.
+Ejemplo en la vida real: el numero de DNI.
+
+Foreign Key (Clave Foranea / FK): Es una columna, que sirve para relacionar una tabla, con 
+otra tabla, su valor hace referencia a la PK de otra tabla.
+Ejemplo: 
+tabla Ventas:
+cliente_id -> 1
+producto_id -> 3
+
+hace referencia al cliente cuyo id es 1, y al producto cuyo id es 3.
+
+las relacionales tienen cardinalidad, y hay varios de relaciones.
+
+---------------------------------------
+
+Bases de datos no relacionales:
+
+Tambien llamadas NoSQL, no dependen de tablas y relaciones.
+
+Pueden almacenar informacion como:
+
+-Documentos JSON.
+-clave-valor.
+-Grafos.
+-Datos distribuidos.
+
+Por ejemplo un documento podria ser:
+{
+  "nombre": "Juan",
+  "edad": 25,
+  "email": "juan@email.com"
+}
