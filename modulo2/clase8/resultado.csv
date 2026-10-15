@@ -1,0 +1,9 @@
+,venta_id,cliente_id,producto_id,cantidad,precio_unitario,nombre,ciudad,segmento,producto,categoria
+0,101,1,1001,2,1200,Ana Gómez,Buenos Aires,Premium,Mouse,Periféricos
+1,102,2,1002,1,2500,Bruno Díaz,La Plata,Standard,Teclado,Periféricos
+2,103,1,1003,3,1800,Ana Gómez,Buenos Aires,Premium,Auriculares,Audio
+3,104,3,1001,1,1200,Carla López,Quilmes,Premium,Mouse,Periféricos
+4,105,4,1004,2,3200,Diego Ruiz,Berazategui,Standard,Webcam,Video
+5,106,5,1002,4,2500,Elena Silva,Avellaneda,Premium,Teclado,Periféricos
+6,108,2,1003,2,1800,Bruno Díaz,La Plata,Standard,Auriculares,Audio
+7,109,6,1001,5,1200,Facundo Pérez,Lanús,Standard,Mouse,Periféricos

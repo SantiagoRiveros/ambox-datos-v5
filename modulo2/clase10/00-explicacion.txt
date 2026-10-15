@@ -1,0 +1,25 @@
+https://www.kaggle.com/datasets/ihelon/coffee-sales
+
+date = fecha de compra
+
+datetime = fecha/hora de compra
+
+cash_type = Cash o card, es el tipo de compra 
+
+card = numero anonimo de tarjeta
+
+money = cantidad de dinero en moneda ucraniana.
+
+coffe_name = tipo de cafe 
+
+Consigna:
+
+hoy vamos a trabajar como si fueramos analistas de datos contratados por una 
+cafeteria.
+
+Tenemos una archivo de informacion util de ventas y nuestro trabajo va a ser transformar
+esos datos en informacion util para el negocio.
+
+No vamos a recibir las preguntas resueltas. Vamos a tener que explorar los datos 
+y construir las respuestas utilizando pandas.
+

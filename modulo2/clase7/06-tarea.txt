@@ -1,0 +1,104 @@
+Parte A — Filtrado
+1.
+
+Mostrar todos los pasajeros mayores de 40 años.
+
+2.
+
+Mostrar todos los pasajeros de tercera clase.
+
+3.
+
+Mostrar todos los pasajeros que pagaron más de 100 de tarifa.
+
+4.
+
+Mostrar todas las mujeres que tenían más de 30 años.
+
+5.
+
+Mostrar hombres menores de 18 años.
+
+6.
+
+Mostrar pasajeros de primera o segunda clase.
+
+Usar:
+
+isin()
+Parte B — Selección y orden
+7.
+
+Mostrar solamente:
+
+nombre
+edad
+tarifa
+
+de los pasajeros que pagaron más de 50.
+
+8.
+
+Mostrar los 10 pasajeros con mayor tarifa.
+
+Pista:
+
+.sort_values()
+.head()
+9.
+
+Mostrar los 10 pasajeros de menor edad.
+
+Parte C — Resúmenes
+10.
+
+¿Cuál es la edad promedio de todos los pasajeros?
+
+11.
+
+¿Cuál es la tarifa promedio?
+
+12.
+
+¿Cuál es la edad máxima?
+
+13.
+
+¿Cuál es la tarifa mínima?
+
+14.
+
+¿Cuántos pasajeros sobrevivieron?
+
+15.
+
+¿Cuántos pasajeros no sobrevivieron?
+
+Parte D — groupby()
+16.
+
+¿Cuántos pasajeros había en cada clase?
+
+17.
+
+¿Cuál era la edad promedio de cada clase?
+
+18.
+
+¿Cuál era la tarifa promedio de cada clase?
+
+19.
+
+¿Cuál era la edad promedio según género?
+
+20.
+
+¿Cuántos pasajeros había según género?
+
+21.
+
+¿Cuántos sobrevivientes hubo según género?
+
+22.
+
+¿Cuántos sobrevivientes hubo según clase?

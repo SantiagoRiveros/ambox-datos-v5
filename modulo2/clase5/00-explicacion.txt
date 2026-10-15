@@ -1,0 +1,27 @@
+Pandas permite trabajar con estructuras tabulares, 
+similares a una planilla de excel.
+
+Un dataframe puede pensarse como:
+
+UNa tabla compuesta por Filas y columnas
+
+| nombre | edad | ciudad       | salario |
+| ------ | ---: | ------------ | ------: |
+| Ana    |   25 | Buenos Aires |  850000 |
+| Juan   |   32 | La Plata     | 1200000 |
+| Pedro  |   28 | Quilmes      |  950000 |
+
+
+Conceptos importantes:
+
+DataFrame
+│
+├── Columnas -> Son los campos
+├── Filas -> SOn los registros
+├── Índice -> Es la numeracion def cada registro
+└── Valores -> El valor de cada celda (celda = fila + columna)
+
+Pandas asigna indices de manera automatica:
+0, 1, 2
+
+podemos cambiarlo!

@@ -1,0 +1,68 @@
+Análisis de productos
+
+Crear un archivo:
+
+analisis_productos.py
+Paso 1
+
+Importar Pandas:
+
+import pandas as pd
+Paso 2
+
+Leer:
+
+productos.csv
+
+y almacenarlo en un DataFrame.
+
+Paso 3
+
+Mostrar:
+
+las primeras filas
+cantidad de filas y columnas
+nombres de las columnas
+Paso 4
+
+Calcular:
+
+precio promedio
+precio máximo
+precio mínimo
+stock total
+Paso 5
+
+Crear:
+
+valor_stock
+
+calculando:
+
+precio × stock
+Paso 6
+
+Mostrar solamente:
+
+producto
+precio
+valor_stock
+Paso 7
+
+Mostrar los productos:
+
+con precio mayor a $50.000
+Paso 8
+
+Mostrar los productos:
+
+con stock menor a 10
+Paso 9
+
+Ordenar los productos de mayor a menor precio.
+
+Paso 10
+
+Guardar el resultado en:
+
+productos_analizados.csv

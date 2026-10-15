@@ -1,0 +1,16 @@
+PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp',
+       'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked'
+
+PassengerId = el id del pasajero
+Survived = es si sobrevivio o no, 1 es que sobrevivio, 0 es que no 
+Pclass = Es la clase en la que viajaba el pasajero, va de 3 a 1, siendo 1 la mas cara
+Name = Nombre del pasajero
+Sex = Genero del pasajero, es male (hombre) o female (mujer)
+Age = edad del pasajero 
+SibSp = Siblings Spouse, es si viajan con hermanos y/o esposa, y su numero 
+Parch = Parents Children, si va con padres y/o hijos y su numero 
+Ticket = Numero de ticket 
+Fare = Valor del pasaje 
+Cabin = Cabina donde se alojo el pasajero 
+Embarked = Puerto donde subio el pasajero 
+

@@ -1,0 +1,44 @@
+¿Que es numpy?
+
+Que pasa si tenemos 1.000.000 de numeros y queremos sumarle 10 a todos?
+
+Con una lista podriamos hacer:
+
+numeros = [10, 20, 30, 40, 50]
+
+resultado = []
+
+for numero in numeros:
+    resultado.append(numero + 10)
+
+print(resultado) -> [20, 30, 40, 50, 60]
+
+Funciona? Si, Funciona
+Pero para analisis de datos vamos a trabajar constantemente con grandes cantidades de valores
+Ademas, esos valores van variando y agregandose todo el tiempo.
+
+Aca es cuando aparece Numpy.
+Numpy significa: Numerical Python
+
+Es una biblioteca especializada en:
+-Calculos numericos
+-Arrays
+-Matrices
+-Operaciones matematicas
+-Algebra lineal
+-Estadisticas
+-Procesamiento eficiente de datos numericos.
+
+Se importa normalmente asi:
+
+import numpy as numpy
+np es simplemente un alias.
+
+Listas vs Arrays:
+
+porque un array?
+El array, es una estructura de datos, de Numpy (Aunque existe en otras librerias, es mas bien
+un concepto) muy similar a las listas, con la unica diferencia que nos permite
+el procesamiento mucho mas eficiente, y mas simple
+
+------------------------------------------

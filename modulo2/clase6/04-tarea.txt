@@ -1,0 +1,89 @@
+Usando el siguiente CSV:
+
+https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
+
+Objetivo
+
+Tenemos un dataset de ventas que contiene algunos problemas:
+
+valores nulos
+datos duplicados
+nombres de columnas poco claros
+valores que necesitan transformación
+posibilidad de crear nuevas columnas
+
+El objetivo es realizar una limpieza básica utilizando Pandas.
+
+1- Cargar el CSV:
+
+import pandas as pd
+
+df = pd.read_csv("superstore.csv")
+
+2- Exploración inicial
+
+Mostrar:
+
+df.head()
+df.shape
+df.info()
+
+Responder:
+
+¿Cuántas filas tiene el dataset?
+¿Cuántas columnas?
+¿Qué tipos de datos aparecen?
+
+3- Buscar valores nulos
+
+Mostrar la cantidad de valores nulos por columna:
+
+df.isnull().sum()
+
+Identificar:
+
+¿Qué columnas tienen valores faltantes?
+¿Cuántos valores faltantes tiene cada una?
+
+4- Eliminar columnas innecesarias
+
+Eliminar las columnas que consideren que no son necesarias para analizar las ventas.
+
+Justificar brevemente por qué decidieron eliminarlas.
+
+5- Completar valores faltantes
+
+Para las columnas numéricas que tengan valores faltantes, reemplazarlos utilizando la mediana.
+
+Ejemplo:
+
+df["columna"] = df["columna"].fillna(df["columna"].median())
+
+Si existe alguna columna de texto con valores faltantes, reemplazarlos por:
+
+"Desconocido"
+
+6- Buscar duplicados
+df.duplicated().sum()
+
+Si existen registros duplicados:
+
+df = df.drop_duplicates()
+
+7- Renombrar columnas
+
+Cambiar al menos 3 nombres de columnas para que sean más claros.
+
+Por ejemplo:
+
+Sales → ventas
+Quantity → cantidad
+Category → categoria
+
+8- Verificar la limpieza
+
+Al finalizar ejecutar:
+
+df.info()
+df.isnull().sum()
+df.duplicated().sum()

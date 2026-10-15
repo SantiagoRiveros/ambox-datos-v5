@@ -1,0 +1,169 @@
+-Combinar dos dataframes
+-Entender que son las claves
+-usar pd.merge()
+-entender inner, left, right, outer
+-combinar dataframes usando mas de una columna
+-usar join
+-entender la relacion entre indices y join
+-usar pd.concat()
+-trabajar con CSV separados como si fueran tablas relacionadas de una base de datos.
+
+-----------------------------------
+
+
+¿Porque necesitamos combinar dos dataframes?
+
+Empezemos mirando clientes.csv
+
+CLAVE PRIMARIA:
+Es una clave unica e irrepetible (dentro de el conjunto de datos)
+que sirve para identificar un registro de manera unica
+
+Clave:
+
+Es una columna que nos va a permitir relacionar informacion.
+
+Ejemplo:
+cliente_id
+producto_id
+venta_id
+
+MERGE:
+
+sirve para unir dos dataframes
+la sintaxis basica es:
+
+pd.merge(dataframe1, dataframe2)
+
+Como funciona?
+
+Pandas detecta automaticamente las columnas que tienen el mismo nombre
+
+En este caso: cliente_id
+por lo tanto combina -> ventas + clientes
+
+Aunque pandas lo detecta automaticamente, la mejor practica es especificarla
+manualmente
+
+
+----------------------
+
+how en merge:
+Podemos indicar como queremos combinar los dataframes.
+
+los principales tipos son:
+how="inner"
+how="left"
+how="right"
+how="outer"
+
+INNER JOIN:
+Es el comportamiento por defecto
+
+resultado = pd.merge(ventas, clientes, on="cliente_id", how="inner")
+
+significa:
+Quedarse solamente con las filas que tienen coincidencia en ambos dataframes.
+
+LEFT JOIN:
+
+resultado = pd.merge(ventas,clientes,on="cliente_id"how="left")
+
+Significa: Quiero conservar todas las filas del dataframe de la izquierda
+
+Cuando no hay coincidencia en el dataframe de la derecha, pandas rellena las columnas
+con NaN
+
+RIGHT JOIN:
+
+resultado = pd.merge(
+    ventas,
+    clientes,
+    on="cliente_id",
+    how="right"
+)
+
+Ahora conserva -> Todos los clientes
+aunque un cliente no tenga ninguna venta 
+
+OUTER JOIN:
+
+resultado = pd.merge(
+    ventas,
+    clientes,
+    on="cliente_id",
+    how="outer"
+)
+
+conserva:
+-coincidencias
+-elementos que solamente aparecen en ventas.
+-elementos que solamente aparecne en clientes.
+
+Es decir -> TODO 
+
+----------------------
+
+Que pasa cuando los nombres de las columnas son diferentes?
+
+Supongamos:
+
+cliente_id
+
+pero el otro dataframe tiene:
+id_cliente
+
+no podemos hacer -> on="cliente_id"
+
+En ese se hace asi:
+
+resultado = pd.merge(
+    ventas,
+    clientes,
+    left_on="cliente_id",
+    right_on="id_cliente"
+)
+
+------------------------------
+
+JOIN:
+
+Merge y Join resuelven problemas parecidos pero join() trabaja 
+especialmente bien cuando la relacion se basa en los indices
+
+| `merge()`             | `join()`                                     |
+| --------------------- | -------------------------------------------- |
+| Muy flexible          | Más orientado a índices                      |
+| Puede usar columnas   | Trabaja naturalmente con índices             |
+| Similar a SQL JOIN    | Muy cómodo para índices                      |
+| Muy usado en análisis | Muy útil cuando los índices están preparados |
+
+----------------------
+
+concat:
+
+con merge() estabamos diciendo: quiero relacionar informacion.
+
+con concat() decimos -> Quiero "pegar" dataframes.
+
+tenemos dos tipos de concatenaciones:
+
+VERTICAL Y HORIZONTAL.
+
+Vertical:
+
+pd.concat([dataframe1, dataframe2], ignore_index=True)
+
+este agrega filas
+
+Horizontal:
+
+pd.concat([df1, df2], axis=1)
+
+axis=1 significa -> concatenar por columnas
+
+axis=0 -> Concatenar por filas 
+
+axis=0 -> filas 
+axis=1 -> columnas
+

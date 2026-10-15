@@ -1,0 +1,56 @@
+CREATE TABLE clientes (
+    id INTEGER PRIMARY KEY,
+    nombre TEXT,
+    ciudad TEXT
+);
+
+CREATE TABLE productos (
+    id INTEGER PRIMARY KEY,
+    nombre TEXT,
+    precio REAL,
+    categoria TEXT
+);
+
+CREATE TABLE ventas (
+    id INTEGER PRIMARY KEY,
+    cliente_id INTEGER,
+    producto_id INTEGER,
+    cantidad INTEGER,
+    fecha TEXT,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id),
+    FOREIGN KEY (producto_id) REFERENCES productos(id)
+);
+
+INSERT INTO clientes VALUES
+(1, 'Lucia', 'Buenos Aires'),
+(2, 'Mateo', 'La Plata'),
+(3, 'Sofia', 'Quilmes'),
+(4, 'Tomas', 'Berazategui'),
+(5, 'Valentina', 'La Plata');
+
+INSERT INTO productos VALUES
+(1, 'Teclado', 20000, 'Perifericos'),
+(2, 'Mouse', 10000, 'Perifericos'),
+(3, 'Monitor', 150000, 'Pantallas'),
+(4, 'Auriculares', 30000, 'Audio'),
+(5, 'Webcam', 25000, 'Video');
+
+INSERT INTO ventas VALUES
+(1, 1, 1, 2, '2026-10-01'),
+(2, 1, 2, 1, '2026-10-02'),
+(3, 2, 3, 1, '2026-10-03'),
+(4, 3, 4, 2, '2026-10-04'),
+(5, 2, 2, 3, '2026-10-05'),
+(6, 4, 1, 1, '2026-10-06'),
+(7, 3, 3, 1, '2026-10-07');
+
+Ejercicio 1 — Historial de ventas
+Mostrar el nombre del cliente, el nombre del producto, la cantidad comprada y la fecha de cada venta.
+Ejercicio 2 — Ventas de productos caros
+Mostrar el nombre del cliente, el producto y su precio para todas las ventas de productos que cuesten más de $25.000.
+Ejercicio 3 — Compras de una ciudad
+Mostrar el nombre del cliente y el producto comprado por clientes que viven en La Plata.
+Ejercicio 4 — Clientes sin compras
+Mostrar el nombre y la ciudad de todos los clientes que todavía no realizaron ninguna compra. Utilizar LEFT JOIN.
+Ejercicio 5 — Cantidad de unidades vendidas
+Mostrar el nombre de cada producto y la cantidad total de unidades vendidas de ese producto. Ordenar desde el que vendió más unidades hasta el que vendió menos.

@@ -1,0 +1,47 @@
+CREATE TABLE inscripciones (
+    id INTEGER PRIMARY KEY,
+    alumno TEXT NOT NULL,
+    curso TEXT NOT NULL,
+    modalidad TEXT NOT NULL,
+    nota REAL NOT NULL,
+    precio REAL NOT NULL
+);
+
+INSERT INTO inscripciones
+    (id, alumno, curso, modalidad, nota, precio)
+VALUES
+    (1, 'Lucia', 'Python', 'Online', 9, 45000),
+    (2, 'Marcos', 'SQL', 'Presencial', 7, 35000),
+    (3, 'Sofia', 'Python', 'Online', 8, 45000),
+    (4, 'Juan', 'JavaScript', 'Presencial', 6, 40000),
+    (5, 'Lucia', 'SQL', 'Online', 10, 35000),
+    (6, 'Pedro', 'Python', 'Presencial', 5, 45000),
+    (7, 'Sofia', 'JavaScript', 'Online', 9, 40000),
+    (8, 'Marcos', 'Python', 'Online', 8, 45000),
+    (9, 'Juan', 'SQL', 'Presencial', 7, 35000),
+    (10, 'Pedro', 'JavaScript', 'Online', 8, 40000),
+    (11, 'Lucia', 'Python', 'Presencial', 10, 45000),
+    (12, 'Sofia', 'SQL', 'Online', 6, 35000);
+
+Ejercicio 1. Promedio de notas por curso
+Mostrar el promedio de las notas obtenidas en cada curso.
+Pista: usar AVG() y agrupar por curso.
+
+Ejercicio 2. Cantidad de inscripciones por modalidad
+Mostrar cuántas inscripciones hay en modalidad online y presencial.
+Pista: contar filas y agrupar por modalidad.
+
+Ejercicio 3. Ingresos por curso
+Calcular cuánto dinero genera cada curso.
+Pista: sumar precio.
+
+Ejercicio 4. Cursos con promedio de notas mayor o igual a 8
+Mostrar solamente los cursos cuyo promedio de notas sea al menos 8.
+Pista: usar HAVING con AVG().
+
+Ejercicio 5. Modalidades con ingresos superiores a $200.000
+Agrupar por modalidad y mostrar solo aquellas que superen ese ingreso total.
+Pista: usar SUM() y HAVING.
+
+Ejercicio 6. Notas máximas y mínimas por curso
+Obtener la nota más alta y la más baja de cada curso.

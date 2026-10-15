@@ -1,0 +1,32 @@
+TP — Base de datos de una tienda
+
+Crear una base de datos llamada:
+
+tienda
+
+Crear una tabla:
+
+productos
+
+con:
+
+id
+nombre
+categoria
+precio
+stock
+
+Cargar mínimo 10 productos inventados.
+
+Después realizar estas consultas:
+
+Mostrar todos los productos.
+Mostrar nombre y precio.
+Mostrar productos con precio mayor a $100.000.
+Mostrar productos con precio menor a $50.000.
+Mostrar productos con stock menor a 5.
+Mostrar productos de una categoría determinada.
+Mostrar productos que tengan precio mayor a $50.000 y stock menor a 10.
+Mostrar productos de dos categorías diferentes utilizando OR.
+Mostrar productos cuyo precio sea mayor o igual a $80.000.
+Mostrar productos cuyo stock sea diferente de 0.
