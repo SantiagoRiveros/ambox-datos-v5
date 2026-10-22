@@ -1,0 +1,45 @@
+¿Que es la visualizacion de datos?
+
+La visualizacion de datos consiste en representar informacion mediante elementos graficos,
+como barras, lineas, puntos o sectores, para facilitar su comprension.
+
+Cuando trabajamos con datos, podemos tener cientos o miles de valores. Analizarlos uno por uno
+puede ser dificil, un grafico nos permite identificar rapidamente patrones, diferencias,
+tendencias y valores atipicos (outliers)
+
+Por ejemplo, imaginemos que tenemos las ventas de un negocio durante seis meses:
+ventas = [120, 150, 135, 180, 210, 195]
+
+Podemos leer los numeros individualmente pero un grafico nos permite ver rapidamente que las ventas
+aumentaron en general, aunque hubo algunas caidas.
+
+Para que sirve graficar?
+-Comparar: Determinar que producto vendio mas
+-Identificar tendencias: Observar si las ventas suben o bajan.
+-Encontrar patrones: detectar comportamientos que se repiten.
+-Distribuir: Comprender como se reparten los valores 
+-Detectar anomalias: identificar datos inusuales (outliers)
+-Comunicar resultados: presentar conclusiones de manera clara.
+
+---------------------------------------
+
+Principios basicos de una buena visualizacion:
+
+1. Claridad:
+El grafico debe poder entenderse sin tener que adivinar que representan los graficos.
+Usamos titulso, etiquetas y nombres comprensibles.
+
+2. Simplicidad:
+Evitamos elementos decorativos innecesarios, exceso de colores y efectos tridimensionales
+que dificulten la lectura.
+
+3. Honestidad:
+La escala debe representar correctamente las diferencias. En graficos de barras, normalmente conviene
+que el eje comience en cero.
+
+4. Contexto:
+Indicamos que se mide, en que unidad y durante que periodo. No es lo mismo mostrar
+ventas en pesos que cantidades de productos.
+
+Si muestro un grafico con seis barras, pero no tiene titulo ni nombres en los ejes.
+¿Podrian saber que informacion representa?

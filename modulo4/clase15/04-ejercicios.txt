@@ -1,0 +1,46 @@
+1. Evolución de las temperaturas
+Gráfico de líneas
+Una estación meteorológica registró las siguientes temperaturas durante cinco días:
+dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]temperaturas = [18, 21, 19, 24, 26]
+
+
+
+Consignas:
+- Crear un gráfico de líneas con plt.plot().
+- Agregar marcadores en cada punto.
+- Colocar el título "Temperaturas de la semana".
+- Nombrar los ejes "Día" y "Temperatura (°C)".
+- Activar la cuadrícula.
+- Indicar qué día hizo más calor.
+
+----------------------------------
+
+2. Productos más vendidos
+Gráfico de barras
+Una tienda registró las ventas de cuatro productos:
+productos = ["Mouse", "Teclado", "Monitor", "Webcam"]unidades = [45, 30, 15, 25]
+
+
+
+Consignas:
+- Crear un gráfico de barras con plt.bar().
+- Agregar un título y etiquetas para ambos ejes.
+- Elegir un color para las barras.
+- Determinar cuál fue el producto menos vendido.
+- Calcular cuántas unidades se vendieron en total utilizando Python.
+
+-----------------------------------
+
+3. Distribución de gastos
+Gráfico de sectores
+Una persona distribuyó sus gastos mensuales de la siguiente manera:
+categorias = ["Alquiler", "Comida", "Transporte", "Servicios", "Ocio"]gastos = [300000, 150000, 50000, 60000, 40000]
+
+
+
+Consignas:
+- Crear un gráfico con plt.pie().
+- Mostrar los nombres de las categorías.
+- Mostrar los porcentajes utilizando autopct.
+- Agregar el título "Distribución de gastos mensuales".
+- Identificar qué categoría representa la mayor proporción del gasto.

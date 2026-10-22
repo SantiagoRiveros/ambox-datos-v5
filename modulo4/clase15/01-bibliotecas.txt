@@ -1,0 +1,11 @@
+matplotlib y Pyplot:
+
+¿Que es matplotlib?
+Es una biblioteca de Python utilizada para crear graficos y visualizaciones de datos.
+
+Dentro de esa biblioteca vamos a trabajar principalmente con pyplot, un modulo que
+proporciona funciones para crear graficos, agregar titulos, configurar ejes y mostrar resultados.
+
+Como instalarlo?
+
+python -m pip install matplotlib
