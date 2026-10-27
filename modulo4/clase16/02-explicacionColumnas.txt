@@ -1,0 +1,13 @@
+Variable	    Significado	                        Tipo
+total_bill	    Total de la cuenta	                Numérica
+tip	            Propina	                            Numérica
+sex	            Sexo registrado del cliente	        Categórica
+smoker	        Si fuma o no	                    Categórica
+day	            Día de la semana	                Categórica
+time	        Almuerzo o cena	                    Categórica
+size	        Cantidad de personas en la mesa	    Numérica discreta
+
+1. ¿Las cuentas más altas suelen tener propinas más altas?
+2. ¿Qué día se registran las cuentas más elevadas?
+3. ¿Cambian las propinas según el tamaño de la mesa?
+4. ¿Hay diferencias entre almuerzos y cenas?

@@ -1,0 +1,19 @@
+¿Que es Seaborn?
+Seaborn es una biblioteca de Python para visualizacion estadistica, construida sobre
+matplotlib. Se integra muy bien con Pandas y permite generar graficos informativos con menos 
+codigo.
+
+La diferencia principal es que matplotlib ofrece un control muy amplio sobre cada elemento del
+grafico, mientras que Seaborn simplifica la creacion de visualizaciones estadisticas y permite
+representar variables adicionales facilmente.
+
+Matplotlib (pyplot)	                                    Seaborn
+Control detallado del gráfico	                        Gráficos estadísticos con menos código
+Configuración manual de muchos elementos	            Estilos y configuraciones predeterminados
+Permite construir casi cualquier visualización	        Incluye funciones específicas para explorar datos
+Requiere más configuración para distinguir grupos	    hue permite colorear grupos automáticamente
+Se integra con NumPy y Pandas	                        Especialmente cómodo con DataFrames
+
+con pyplot podíamos dibujar un gráfico de dispersión. 
+Con Seaborn podemos hacer ese mismo gráfico, colorear los puntos según una categoría, 
+modificar su tamaño según otra variable y agregar una línea de tendencia, sin construir todo desde cero.

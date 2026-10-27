@@ -1,0 +1,113 @@
+-Media Aritmetica (Promedio)
+La media es la suma de todos los valores dividida por la cantidad de datos.
+
+-Mediana:
+La mediana es el valor que queda en el medio cuand oordenamos los datos de menor a mayor.
+
+Caso A: Cantidad impar de datos:
+datos = [3, 5, 7, 9, 11]
+
+El valor central (Mediana) es 7
+
+Caso  B: Cantidad Par de datos.
+
+datos = [3, 5, 7, 9]
+Hay dos valores centrales: 5  y 7
+Se suman y se dividen por dos: (5 + 7) / 2 = 6
+
+-Moda:
+La moda es el valor que aparece con mayor frecuencia.
+Ejemplo:
+notas = [4, 5, 5, 6, 7, 7, 7, 8, 9]
+El numero 7 aparece tres veces, mas que cualquier otro valor, por lo tanto es la moda.
+
+Puede darse el caso que dos valores sean la moda, o mas.
+
+-Rango:
+El rango mide la diferencia entre el valor maximo y minimo
+
+Rango = Maximo - Minimo
+
+-Cuartiles:
+Los cuartiles dividen los datos ordenados en cuatro partes, aproximadamente iguales en cantidad
+de observaciones
+
+Se suelen representar asi:
+Q1: primer cuartil, percentil 25. Aproximdamente el 25% de los datos queda por debajo.
+Q2: Segundo cuartil, percentil 50. Es la mediana.
+Q3: Tercer cuartil, percentil 75. Aproximadamente el 75% de los datos queda por debajo.
+
+datos = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+
+En este conjunto la mediana es 50. Con el metodo habitual de percentiles interpolados, obtenemos:
+Q1: 30
+Q2: 50
+Q3: 70
+
+Esto nos permite describir no solamente el centro, 
+sino también dónde se encuentran distintas partes de los datos.
+
+-Rango Intercuartilico (IQR)
+El rango intercuartilico tambien llamado IQR mide la amplitud del 50% central de los datos.
+
+Se calcula restando el primer cuartil al tercer cuartil:
+
+IQR = Q3 - Q1
+En el ejemplo de arriba. IQR = 70 - 30 = 40
+
+El 50% central de los datos se encuentra dentro del intervalo comprendido entre 30 y 70
+
+¿Para que sirve?
+Es util para entender la dispersion sin que los valores extremos tengan tanta influencia como en 
+el rango total.
+
+Por ejemplo, si la mayoria de los tiempos de entrega se encuentra entre 20 y 35 minutos.
+El IQR permite medir la variabilidad de la zona central, aunque exista algun pedido 
+excepcionalmente lento (outlier)
+
+-Outliers (Valores Atipicos):
+Son valores que se alejan de la zona habitual donde residen los datos, se puede calcular.
+
+Todo lo que este por fuera del lmite inferio y superior son outliers.
+
+Limite inferior = Q1 - 1.5 * IQR
+
+Limite Superior = Q3 + 1.5 * IQR
+
+-Varianza:
+La varianza mide cuanto se  dispersan los datos respecto de la media.
+La idea es sencilla: Si todos los valroes estan muy cerca del promedio, la varianza sera pequeña
+si estan muy alejados, es grade.
+
+Para calcularla:
+1-Calculamos la media
+2-Restamos la media a cada observaciones
+3- Elevamos cada diferencia al cuadrado.
+4- Calculamos el promedio de esas diferencias cuadraticas, o una estimacion muestral si estamos
+trabajando con una muestra.
+
+-Desviacion estandar:
+La desviacion estandar es la raiz cuadrada de la varianza.
+
+Su principal ventaja es que se expresa en las mismas unidades que los datos originales.
+
+-Percentiles:
+Los percentiles dividen los datos ordenados en 100 partes, aproximadamente iguales en cantidad de observaciones.
+
+- Correlación: relación entre dos variables
+Hasta ahora vimos medidas que describen una sola variable. 
+La correlación nos permite estudiar cómo se relacionan dos variables numéricas.
+su valor va de -1 a 1.
+
+Correlación	    Interpretación
+Cerca de 1	    Relación lineal positiva fuerte
+Cerca de 0	    Relación lineal débil o inexistente
+Cerca de -1	    Relación lineal negativa fuerte
+
+ejemplo: Si variable A sube 1 y variable B tambien, la relacion es 1
+Si una sube, y la otra baja es -1
+Si son indiferentes, es 0
+
+Ejemplo del titanic: Primera clase o Pclass = 1, tiene los pasajes mas caros
+Pclass = 3 los mas baratos
+tiene una relacion negativa con Fare, porque cuanto mas alto el numero de Pclass, mas bajo el de fare 
