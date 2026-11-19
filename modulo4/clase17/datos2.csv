@@ -1,0 +1,31 @@
+ID,Nombre,Departamento,Puesto,Genero,FechaIngreso,Edad,Salario,Modalidad,Estado
+1,Ana Lopez,Tecnologia,Desarrolladora,Femenino,2020-03-15,29,1800000,Remoto,Activo
+2,Carlos Perez,Ventas,Ejecutivo,Masculino,2019-06-10,35,1450000,Presencial,Activo
+3,Lucia Gomez,Recursos Humanos,Analista,Femenino,2021-01-20,31,1300000,Hibrido,Activo
+4,Martin Diaz,Tecnologia,Desarrollador,Masculino,2018-11-05,40,2200000,Remoto,Activo
+5,Sofia Torres,Marketing,Disenadora,Femenino,2022-04-12,27,1250000,Hibrido,Activo
+6,Juan Romero,Finanzas,Contador,Masculino,2017-08-22,43,1950000,Presencial,Activo
+7,Valentina Ruiz,Tecnologia,Desarrolladora,Femenino,2023-02-01,25,1500000,Remoto,Activo
+8,Diego Fernandez,Ventas,Ejecutivo,Masculino,2020-09-14,33,1550000,Presencial,Activo
+9,Camila Castro,Marketing,Analista,Femenino,2019-12-03,36,1650000,Hibrido,Activo
+10,Nicolas Alvarez,Tecnologia,Soporte,Masculino,2021-07-19,30,1200000,Remoto,Activo
+11,Florencia Silva,Recursos Humanos,Gerente,Femenino,2016-05-16,45,2500000,Hibrido,Activo
+12,Matias Herrera,Finanzas,Analista,Masculino,2022-10-11,28,1350000,Presencial,Activo
+13,Julieta Medina,Tecnologia,Desarrolladora,Femenino,2020-01-08,32,1850000,Remoto,Activo
+14,Lucas Aguirre,Ventas,Gerente,Masculino,2015-03-25,48,2700000,Presencial,Activo
+15,Martina Benitez,Marketing,Community Manager,Femenino,2023-06-05,24,1100000,Remoto,Activo
+16,Franco Molina,Finanzas,Contador,Masculino,2019-02-18,38,1750000,Hibrido,Activo
+17,Agustina Rojas,Tecnologia,Desarrolladora,Femenino,2024-01-15,26,1400000,Remoto,Activo
+18,Facundo Acosta,Ventas,Ejecutivo,Masculino,2021-11-09,29,1300000,Presencial,Activo
+19,Carolina Vega,Recursos Humanos,Analista,Femenino,2018-07-23,39,1700000,Hibrido,Activo
+20,Emiliano Suarez,Tecnologia,Gerente,Masculino,2014-04-07,50,3200000,Hibrido,Activo
+21,Paula Cabrera,Marketing,Disenadora,Femenino,2020-08-17,34,1550000,Remoto,Activo
+22,Gonzalo Ortiz,Finanzas,Analista,Masculino,2023-03-13,27,1250000,Presencial,Activo
+23,Milagros Pereyra,Tecnologia,Soporte,Femenino,2022-05-30,28,1150000,Remoto,Activo
+24,Bruno Gimenez,Ventas,Ejecutivo,Masculino,2017-09-12,42,1900000,Presencial,Activo
+25,Daniela Navarro,Marketing,Gerente,Femenino,2016-12-01,44,2400000,Hibrido,Activo
+26,Agustin Sosa,Tecnologia,Desarrollador,Masculino,2025-02-10,23,1050000,Remoto,Activo
+27,Romina Ibarra,Recursos Humanos,Analista,Femenino,2024-06-17,30,1200000,Hibrido,Activo
+28,Leandro Campos,Finanzas,Contador,Masculino,2020-10-26,37,1800000,Presencial,Inactivo
+29,Florencia Luna,Marketing,Analista,Femenino,2021-04-19,33,1450000,Remoto,Inactivo
+30,Santiago Morales,Tecnologia,Desarrollador,Masculino,2019-05-06,36,2000000,Remoto,Activo
