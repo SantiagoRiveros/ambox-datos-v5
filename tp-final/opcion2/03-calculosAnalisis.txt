@@ -1,0 +1,43 @@
+Cálculos y análisis con Python
+
+A. Análisis de precios
+- Precio promedio de los alojamientos.
+- Precio mediano.
+- Precio máximo y mínimo.
+- Precio promedio por tipo de habitación.
+- Precio promedio por barrio.
+- Identificar los 10 barrios más caros.
+- Calcular la diferencia porcentual entre el precio de los alojamientos completos y las habitaciones privadas.
+
+B. Análisis de disponibilidad
+- Calcular la disponibilidad promedio.
+- Identificar los barrios con mayor disponibilidad.
+- Calcular qué porcentaje de alojamientos tiene menos de 30 días disponibles.
+- Identificar alojamientos disponibles durante más de 300 días.
+
+C. Análisis de anfitriones
+- Cantidad de anfitriones únicos.
+- Identificar los 10 anfitriones con más alojamientos.
+- Calcular el porcentaje de propiedades que pertenecen a anfitriones con múltiples publicaciones.
+- Comparar los precios de anfitriones individuales y anfitriones con múltiples propiedades.
+
+D. Análisis de reseñas
+- Promedio de reseñas por alojamiento.
+- Cantidad total de reseñas.
+- Identificar los barrios con más reseñas.
+- Analizar la relación entre cantidad de reseñas y precio.
+- Identificar alojamientos sin reseñas.
+
+E. Estadística
+Deberán aplicar:
+- Media, mediana y moda.
+- Desviación estándar.
+- Varianza.
+- Cuartiles.
+- Rango intercuartílico (IQR).
+- Detección de valores atípicos.
+- Correlación entre precio, disponibilidad y reseñas.
+
+F. Cálculo adicional
+Crear una nueva columna llamada costo_estimado_7_noches, calculada a partir del precio por noche multiplicado por siete.
+También deberán calcular cuánto costaría alojarse durante 30 noches en los alojamientos analizados, sin considerar impuestos ni cargos adicionales.

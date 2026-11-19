@@ -1,0 +1,13 @@
+Preparación y limpieza con Python
+
+Utilizando Pandas y NumPy, deberán:
+1. Importar los archivos CSV mediante Pandas.
+2. Explorar los DataFrames utilizando head(), info(), describe() y shape.
+3. Identificar valores nulos en las columnas.
+4. Detectar registros duplicados.
+5. Revisar los tipos de datos y corregir los que sean necesarios.
+6. Convertir las columnas correspondientes a fechas utilizando pd.to_datetime().
+7. Investigar qué hacer con los registros incompletos.
+8. Unificar los nombres de las categorías de productos utilizando el archivo de traducciones.
+9. Realizar las uniones necesarias entre DataFrames mediante merge().
+Importante: deberán justificar las decisiones de limpieza. No alcanza con eliminar todos los valores nulos sin analizar qué representan.

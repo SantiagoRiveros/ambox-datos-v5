@@ -1,0 +1,17 @@
+Visualizaciones con Python
+Deberán crear como mínimo 6 gráficos utilizando Matplotlib y Seaborn.
+
+Gráfico	                    Información a representar
+Gráfico de líneas	        Evolución mensual de las ventas
+Gráfico de barras	        Top 10 categorías con mayores ingresos
+Histograma	                Distribución de los tiempos de entrega
+Boxplot	                    Distribución de los precios de los productos
+Heatmap	                    Correlación entre variables numéricas
+Gráfico de barras	        Calificaciones de los clientes
+
+Cada gráfico deberá incluir:
+- Título descriptivo.
+- Nombre de los ejes.
+- Etiquetas cuando sean necesarias.
+- Una breve interpretación escrita.
+No alcanza con generar los gráficos: deberán explicar qué información aporta cada uno.

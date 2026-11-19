@@ -1,0 +1,25 @@
+https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
+
+Este dataset contiene aproximadamente 49.000 alojamientos y 16 columnas con información sobre precios, anfitriones, ubicación, tipo de habitación, disponibilidad y reseñas. 
+Kaggle+1
+
+
+Es una buena alternativa porque tiene un solo CSV principal, por lo que permite concentrarse más en el análisis y las visualizaciones sin dedicar tanto tiempo a relacionar múltiples tablas.
+
+Columnas principales:
+Columna	                            Descripción
+id	                                Identificador del alojamiento
+name	                            Nombre del alojamiento
+host_id	                            Identificador del anfitrión
+neighbourhood_group	                Zona general
+neighbourhood	                    Barrio
+latitude	                        Latitud
+longitude	                        Longitud
+room_type	                        Tipo de habitación
+price	                            Precio por noche
+minimum_nights	                    Mínimo de noches
+number_of_reviews	                Cantidad de reseñas
+reviews_per_month	                Reseñas mensuales
+calculated_host_listings_count	    Alojamientos del anfitrión
+availability_365	                Días disponibles al año
+last_review	                        Fecha de última reseña

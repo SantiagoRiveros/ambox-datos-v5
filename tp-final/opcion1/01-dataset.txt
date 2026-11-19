@@ -1,0 +1,15 @@
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+Es un conjunto de datos muy interesante porque no contiene una sola tabla,
+sino varios archivos CSV relacionados entre sí. 
+Incluye aproximadamente 100.000 pedidos y permite trabajar con relaciones entre tablas. 
+
+Archivos que deberán utilizar:
+Archivo CSV	                                Información
+olist_orders_dataset.csv	                Pedidos, estados y fechas
+olist_order_items_dataset.csv	            Productos, precios y fletes
+olist_customers_dataset.csv	                Clientes y ubicación
+olist_products_dataset.csv	                Productos y categorías
+olist_order_payments_dataset.csv	        Pagos y cuotas
+olist_order_reviews_dataset.csv	            Calificaciones de clientes
+product_category_name_translation.csv	    Traducción de categorías

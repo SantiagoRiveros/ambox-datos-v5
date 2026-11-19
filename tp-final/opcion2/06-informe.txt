@@ -1,0 +1,13 @@
+Informe escrito
+Deberán entregar un informe en PDF de aproximadamente 5 a 8 páginas.
+
+El informe tendrá que contener:
+1. Introducción: presentación del problema y objetivos del análisis.
+2. Descripción del dataset: fuente, cantidad de registros, columnas y tablas utilizadas.
+3. Limpieza de datos: problemas encontrados y decisiones tomadas.
+4. Análisis exploratorio: principales resultados y cálculos realizados.
+5. Visualizaciones: gráficos desarrollados con Python e interpretación de cada uno.
+6. Resultados: principales descubrimientos del análisis.
+7. Conclusiones y recomendaciones: qué debería mejorar la empresa y por qué.
+
+Las conclusiones deben estar respaldadas por los resultados obtenidos.

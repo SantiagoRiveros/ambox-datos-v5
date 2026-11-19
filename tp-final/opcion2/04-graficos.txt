@@ -1,0 +1,13 @@
+Visualizaciones con Python
+Deberán realizar al menos 6 gráficos.
+Gráfico	            Información
+Histograma	        Distribución de precios
+Boxplot	            Precios según tipo de habitación
+Barras	            Precio promedio por zona
+Barras	            Cantidad de alojamientos por tipo
+Scatterplot	        Precio vs. cantidad de reseñas
+Heatmap	            Correlación entre variables numéricas
+
+También podrán incorporar un gráfico adicional de distribución geográfica utilizando latitud y longitud.
+
+Cada visualización debe tener título, etiquetas e interpretación.

@@ -1,0 +1,44 @@
+Cálculos y análisis con Python
+Los alumnos deberán generar nuevas columnas y calcular indicadores utilizando Pandas y NumPy.
+
+A. Análisis de ventas
+- Calcular el importe total vendido.
+- Calcular el promedio de compra por pedido.
+- Identificar el pedido de mayor importe.
+- Identificar el mes con mayores ventas.
+- Calcular la cantidad de pedidos por mes.
+- Obtener los ingresos por categoría de producto.
+
+B. Análisis de clientes
+- Calcular la cantidad de clientes únicos.
+- Identificar los estados con mayor cantidad de compradores.
+- Calcular el promedio de pedidos por cliente.
+- Identificar clientes que hayan realizado más de una compra, si los datos lo permiten.
+
+C. Análisis de entregas
+Crear una nueva columna llamada dias_entrega que represente la 
+cantidad de días entre la compra y la entrega.
+
+Calcular:
+- Tiempo promedio de entrega.
+- Tiempo máximo y mínimo de entrega.
+- Cantidad de pedidos entregados después de la fecha estimada.
+- Porcentaje de entregas tardías.
+
+D. Análisis de satisfacción
+- Calcular el promedio de calificaciones.
+- Obtener la cantidad de opiniones por puntuación.
+- Identificar qué categorías tienen mejores y peores calificaciones.
+- Investigar si las entregas tardías están relacionadas con calificaciones más bajas.
+
+E. Estadística
+Aplicar los siguientes conceptos:
+- Media.
+- Mediana.
+- Moda.
+- Desviación estándar.
+- Cuartiles.
+- Valores atípicos mediante el método IQR.
+- Correlación entre variables numéricas.
+No hace falta utilizar todos los cálculos en todas las secciones. 
+Deberán seleccionar los que sean útiles para responder las preguntas del negocio.

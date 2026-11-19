@@ -1,0 +1,13 @@
+Preparación y limpieza con Python
+Los alumnos deberán:
+1. Importar el CSV con Pandas.
+2. Explorar el DataFrame.
+3. Identificar valores nulos.
+4. Detectar duplicados.
+5. Revisar los tipos de datos.
+6. Identificar precios iguales a cero o valores sospechosos.
+7. Analizar valores extremos en la columna price.
+8. Investigar qué hacer con los alojamientos que no tienen reseñas.
+9. Convertir last_review a formato fecha.
+10. Crear nuevas columnas para facilitar el análisis.
+Deberán documentar las decisiones tomadas durante la limpieza.

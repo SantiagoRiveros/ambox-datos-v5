@@ -1,0 +1,14 @@
+Una consultora especializada en turismo y alquileres temporarios quiere analizar el mercado de alojamientos de Airbnb en Nueva York.
+
+La consultora necesita conocer cómo se distribuyen los alojamientos, qué zonas presentan precios más elevados, qué tipos de habitaciones predominan y qué factores parecen estar relacionados con el precio y la disponibilidad.
+
+El equipo de análisis deberá responder:
+- ¿Qué barrios tienen los precios más elevados?
+- ¿Qué tipo de alojamiento es el más frecuente?
+- ¿En qué zonas existe mayor concentración de alojamientos?
+- ¿Los alojamientos completos son significativamente más caros?
+- ¿Existe relación entre el precio y la cantidad de reseñas?
+- ¿Qué anfitriones tienen más propiedades publicadas?
+- ¿Qué alojamientos tienen precios atípicos?
+- ¿Qué características podrían influir en el precio de un alojamiento?
+El objetivo es presentar un estudio del mercado que permita identificar oportunidades comerciales para anfitriones e inversores.

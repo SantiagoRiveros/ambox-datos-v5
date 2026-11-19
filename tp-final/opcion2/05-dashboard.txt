@@ -1,0 +1,29 @@
+Página 1 – Análisis del mercado
+
+Indicadores KPI:
+- Cantidad de alojamientos.
+- Precio promedio por noche.
+- Precio mediano.
+- Cantidad de anfitriones.
+
+Gráficos:
+- Alojamientos por zona.
+- Precio promedio por barrio.
+- Distribución por tipo de habitación.
+- Mapa geográfico de alojamientos.
+
+Página 2 – Análisis de precios y anfitriones
+Indicadores:
+- Disponibilidad promedio.
+- Cantidad promedio de reseñas.
+- Precio promedio de habitaciones completas.
+- Cantidad de anfitriones con múltiples publicaciones.
+
+Gráficos:
+- Precio según tipo de habitación.
+- Disponibilidad según zona.
+- Top 10 anfitriones con más alojamientos.
+- Relación entre precios y reseñas.
+Deberán agregar filtros interactivos por zona, barrio y tipo de habitación.
+
+Se valorará la creación de medidas DAX.

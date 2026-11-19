@@ -1,0 +1,30 @@
+Deberán desarrollar un dashboard interactivo con al menos dos páginas.
+
+Página 1 – Rendimiento comercial
+
+Indicadores principales (KPI):
+- Ingresos totales.
+- Cantidad de pedidos.
+- Ticket promedio.
+- Categoría más vendida.
+Gráficos:
+- Evolución de ventas por mes.
+- Ventas por categoría.
+- Ventas por estado.
+- Métodos de pago utilizados.
+
+Página 2 – Logística y satisfacción
+
+Indicadores:
+- Tiempo promedio de entrega.
+- Porcentaje de entregas tardías.
+- Calificación promedio.
+- Cantidad de pedidos entregados.
+Gráficos:
+- Distribución de calificaciones.
+- Entregas tardías vs. entregas a tiempo.
+- Calificación según tiempo de entrega.
+- Tiempo de entrega por estado.
+Deberán agregar filtros interactivos, por ejemplo, por fecha, categoría y estado.
+
+Se valorará la creación de medidas DAX para calcular los indicadores.

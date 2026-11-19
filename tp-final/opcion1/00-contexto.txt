@@ -1,0 +1,13 @@
+Una empresa de comercio electrónico quiere conocer el rendimiento de su negocio durante los últimos años.
+
+La empresa cuenta con información de pedidos, clientes, productos, vendedores, pagos y opiniones de los compradores.
+
+La gerencia necesita un informe que permita responder:
+- ¿Cuáles son las categorías de productos que generan mayores ingresos?
+- ¿Cómo evolucionaron las ventas a lo largo del tiempo?
+- ¿Qué métodos de pago son los más utilizados?
+- ¿Qué estados de Brasil concentran más compradores?
+- ¿Qué porcentaje de pedidos llega tarde?
+- ¿Existe alguna relación entre los tiempos de entrega y la satisfacción del cliente?
+- ¿Qué aspectos del negocio deberían mejorarse?
+El objetivo es realizar un análisis completo para identificar oportunidades de mejora y presentar recomendaciones basadas en datos.
