@@ -1,0 +1,68 @@
+Distribucion Estadistica.
+Una distribucion Estadistica, representa como se reparten los valores de una variable
+dentro de un conjunto de datos
+
+En otras palabras, nos permite responder preguntas como:
+-¿Que valores aparecen con mayor frecuencia?
+-¿La mayoria de los valores son bajos, medios o altos?
+-¿Los datos estan concentrados o dispersos?
+-¿Existen valores muy alejados del resto?
+-¿La distribucion es simetrica o esta inclinada hacia algun lado?
+
+Ejemplo:
+Tenemos las edades de 15 clientes:
+
+edades = [18, 20, 21, 22, 22, 23, 24, 25, 25, 26, 27, 28, 29, 45, 60]
+
+Podemos ob servar que la mayoria de las edades estan entre 18 y 29 años, pero existen dos personas de 45 y 60.
+
+La distribucion nos permite visualizar ese comportamiento.
+
+------------------------------
+
+Tipos de distribuciones:
+Hay varios tipos de distribuciones, pero vamos a trabajar principalmente con cuatro:
+
+A. Distribucion normal
+
+Es una distribucion simetrica con forma de campana
+
+Caracteristicas:
+-La mayoria de los valores se concentran alrededor de la media
+-Los valores extremos son menos frecuentes.
+-La media, mediana y moda coinciden "aproximadamente"
+
+Ejemplo:
+Si medimos la altura de 1.000 personas, probablemente
+encontremos muchas personas con alturas cercanas al promedio
+y pocas personas extremedamente altas, o bajas.
+
+B. Distribucion sesgada a la derecha (asimetria positiva)
+
+Se produce cuando la mayoria de los valores son bajos o intermedios, pero existen
+algunos valores muy altos
+
+Ejemplo:
+-La mayoria de los empleados cobra entre $500.000 y $900.000
+-Un pequeño grupo cobra $3.000.000 o muchas
+
+Estos valores elevados generan una cola hacia la derecha.
+
+Generalmente: Media > mediana
+
+C. Distribucion sesgada a la izquierda (Asimetria negativa)
+
+Ocurre cuando la mayoria de los valores son altos, pero existen algunos valores muy bajos.
+
+Ejemplo:
+En un examen, donde la mayoria obtiene entre 8 y 10 puntos, pero unos pocos obtienen 2 o 3.
+
+Generalmente: Media < mediana
+
+D. Distribucion Uniforme
+
+Se produce cuando los valores tienen una frecuencia relativamente similar dentro de un rango.
+
+Ejemplo: un dado equilibrado, donde todos los reusltados tienen la misma probabilidad
+(Aunque es improbable que si hacemos un numero homogeneo de observaciones, nos den resultados uniformes)
+

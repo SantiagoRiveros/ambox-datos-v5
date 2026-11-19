@@ -1,0 +1,124 @@
+Estadistica:
+
+La estadistica es una rama de las matematicas que permite recopilar, organizar,
+analizar e interpretar datos.
+
+En el analisis de datos, la estadistica nos permite transformar grandes cantidades de
+inforamcion en resultados que podemos comprender y utilizar para tomar decisiones.
+
+Día	        Venta
+Lunes	    $100
+Martes	    $150
+Miércoles	$120
+Jueves	    $80
+Viernes	    $200
+Sábado	    $250
+Domingo	    $100
+
+-¿Cuanto vende la tienda en promedio?
+-Cual es el valor que aparece en el medio?
+-Las ventas son similares entre si o varian mucho?
+-Hubo dias con ventas muy superiores a los demas?
+
+Estadistica descriptiva:
+La estadistica descriptiva permite resumir y describir las caracteristicas principales
+de un conjunto de datos.
+
+Algunas de las medidas mas utilizadas son:
+-Media
+-Mediana
+-Moda 
+-Minimo y maximo 
+-rango 
+-Varianza 
+-Desviacion estandar
+
+------------------------------
+
+MEDIA:
+Es el promedio de un conjunto de valores
+
+Se calcula sumando todos los valores y diviendo elresultado por la cantidad de datos
+
+Ejemplo: 
+Tenemos las siguientes ventas:
+100, 150, 120, 80, 200
+
+Calculamos:
+
+Media = (100 + 150 + 120 + 80 + 200) / 6 = 130
+
+Para que sirve?
+Permite conocer un valor representativo del conjunto de datos.
+
+Por ejemplo:
+
+-Promedio de salarios
+-Promedio de ventas
+-Promedio de edades
+-Promedio de calificaciones
+
+IMPORTANTE -> La media se ve afectada por los outliers
+
+----------------------------------
+
+Mediana:
+La mediana es el valor central de un conjunto de datos cuando estan ordenados de
+menor a mayor.
+
+Ejemplo:
+80, 100, 120, 150, 200
+
+La mediana es 120
+Cuando tenemos una cantidad impar de datos, buscamos el valor central.
+
+Cuando tenemos una cantidad par, calculamos el promedio de lso valores centrales.
+
+Ejemplo con cantidad par:
+
+80, 100, 120, 150
+
+Mediana = (100 + 120) / 2 = 110
+
+Es especialmente util cuando existen valores extremos
+
+Por ejemplo, imaginemos los salarios de cinco empleados:
+
+1.000, 1.000, 1.000, 1.000, 10.000
+
+Media: 2800
+mediana: 1000
+La media nos da una impresion de que los salarios son mayores de lo que realmente 
+cobra la mayoria
+
+La mediana representa mejor el valor central de este grupo.
+
+------------------------------------
+
+Desviacion estandar
+
+La desviacion estandar mide cuanto se alejan los valores respecto de la media.
+
+En otras palabras, nos permite conocer que tan dispersos estan los datos.
+
+Veamos dos grupos:
+
+Grupo A: 100 - 100 - 100 - 100 - 100
+Todos los valores son iguales, no existe dispersion.
+
+Grupo B: 60 - 80 - 100 - 120 - 140
+Los valores estan mas separados entre si.
+
+Ambos grupos tienen una media de 100, pero su distribucion es diferente.
+-Una desviacion estandar baja indica que los datos estan cerca de la media.
+-Una desviacion estandar alta indica que los datos estan mas dispersos.
+
+Ejemplos de aplicacion:
+-Analizar variacion de ventas
+-Comprar la estabilidad de los precios.
+-Analizar las diferencias entre salarios
+-Estudiar las calificacion de un curso.
+
+IMPORTANTE: Una desviacion estandar alta, no significa que los datos sean malos. Sino que
+indican mayor variabilidad.
+
